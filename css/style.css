@@ -3,10 +3,8 @@ body {
     background: rgb(132, 167, 165);
     color: #000;
     font-family: 'Montserrat', sans-serif;
-    /* background-image: url("../img/casino.jpg");*/
-    /* background-repeat: no-repeat;*/
     z-index: -1;
-    height: 90%;
+    /*height: 90%;*/
 }
 
 h1,
@@ -39,7 +37,7 @@ li {
     /* border: 1px solid rgb(173, 8, 8);*/
     max-width: 1180px;
     position: relative;
-    top: 80px;
+    top: 10%;
     margin: 0 auto;
 }
 

@@ -41,6 +41,10 @@ function seleccionarMonedas() {
         // console.log(selected = true);
         //*Se lo asigno a la variable cantidadMonedas
         cantidadDeMonedas = parseInt(monedasInicio.value);
+        if (cantidadDeMonedas > 30) {
+            alert(" No selecciones \más de 30 monedas");
+            location.reload();
+        }
         console.log("Empiezo con:" + cantidadDeMonedas);
         //Oculto la selección de la cantidad de monedas
         monedasInicio.style.display = "none";
@@ -116,6 +120,5 @@ function puntaje() {
     displayMonedas.setAttribute("value", cantidadDeMonedas);
     //Esta función esta en el archivo exityPintarHistorial
     pintarHistorial();
-
 
 } // End function puntaje
