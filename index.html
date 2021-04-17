@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <h1>Tragamonedas Web</h1>
+            <small>Gana el premio mayor!!</small>
+        </header>
+
+        <div class="divselect">
+            <input type="number" min="1" max="30" value="0" class="inputNumber" id="monedas" />
+            <input type="button" class="boton" id="monedasSelected" value="1 A 30 MONEDAS PARA TU JUEGO" />
+            <input type="button" class="boton" id="salir" value="SALIR" />
+        </div>
+
+        <div id="tirada">
+            <div class="box" id="1">
+                <img id="img1" src="img/casino.jfif" alt="PREMIO !!" />
+            </div>
+
+            <div class="box" id="2">
+                <img id="img2" src="img/casino.jfif" alt="PREMIO !!" />
+            </div>
+
+            <div class="box" id="3">
+                <img id="img3" src="img/casino.jfif" alt="PREMIO !!" />
+            </div>
+
+            <div class="monedas"> <input type="number" min="1" max="30" value="0" class="inputNumber" id="contador" readonly />
+                <input type="button" class="boton" id="tirar" value="TIRAR" />
+                <div class="" id="history">
+                    <p> Historial de tiradas</p>
+                    <ol class="list" id="historialTiradas">
+                    </Ol>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+    <script src="js/functions.js"></script>
+    <script src="js/exitYPintarHistorial.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
